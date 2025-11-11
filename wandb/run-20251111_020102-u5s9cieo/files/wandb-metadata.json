@@ -1,0 +1,40 @@
+{
+  "os": "Windows-11-10.0.26200-SP0",
+  "python": "CPython 3.13.2",
+  "startedAt": "2025-11-11T00:01:02.924034Z",
+  "program": "d:\\Ziad\\university\\Year 5\\Reinforcement Learning\\Assignment2\\assignment2.py",
+  "codePath": "assignment2.py",
+  "codePathLocal": "assignment2.py",
+  "git": {
+    "remote": "https://github.com/ziadasar/Reinforcement-Learning-Ass2.git",
+    "commit": "9f10f29b78ab135aa2cb5547c62edd0a86eab42f"
+  },
+  "email": "ziad.asar04@eng-st.cu.edu.eg",
+  "root": "D:\\Ziad\\university\\Year 5\\Reinforcement Learning\\Assignment2",
+  "host": "DESKTOP-A5PSMLN",
+  "executable": "D:\\Ziad\\university\\Year 5\\Reinforcement Learning\\Assignment2\\.venv\\Scripts\\python.exe",
+  "cpu_count": 4,
+  "cpu_count_logical": 8,
+  "gpu": "NVIDIA GeForce MX230",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "1000068870144",
+      "used": "308344893440"
+    }
+  },
+  "memory": {
+    "total": "16935899136"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce MX230",
+      "memoryTotal": "4294967296",
+      "cudaCores": 256,
+      "architecture": "Pascal",
+      "uuid": "GPU-26152f48-65eb-392a-1ca0-ce0f4dda2f99"
+    }
+  ],
+  "cudaVersion": "12.5",
+  "writerId": "510f6w26iappzg00srudkbswcg6s05av"
+}

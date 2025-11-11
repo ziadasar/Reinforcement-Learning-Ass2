@@ -1,0 +1,45 @@
+_wandb:
+    value:
+        cli_version: 0.22.3
+        e:
+            510f6w26iappzg00srudkbswcg6s05av:
+                codePath: assignment2.py
+                codePathLocal: assignment2.py
+                cpu_count: 4
+                cpu_count_logical: 8
+                cudaVersion: "12.5"
+                disk:
+                    /:
+                        total: "1000068870144"
+                        used: "308344893440"
+                email: ziad.asar04@eng-st.cu.edu.eg
+                executable: D:\Ziad\university\Year 5\Reinforcement Learning\Assignment2\.venv\Scripts\python.exe
+                git:
+                    commit: 9f10f29b78ab135aa2cb5547c62edd0a86eab42f
+                    remote: https://github.com/ziadasar/Reinforcement-Learning-Ass2.git
+                gpu: NVIDIA GeForce MX230
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Pascal
+                      cudaCores: 256
+                      memoryTotal: "4294967296"
+                      name: NVIDIA GeForce MX230
+                      uuid: GPU-26152f48-65eb-392a-1ca0-ce0f4dda2f99
+                host: DESKTOP-A5PSMLN
+                memory:
+                    total: "16935899136"
+                os: Windows-11-10.0.26200-SP0
+                program: d:\Ziad\university\Year 5\Reinforcement Learning\Assignment2\assignment2.py
+                python: CPython 3.13.2
+                root: D:\Ziad\university\Year 5\Reinforcement Learning\Assignment2
+                startedAt: "2025-11-11T00:01:02.924034Z"
+                writerId: 510f6w26iappzg00srudkbswcg6s05av
+        m: []
+        python_version: 3.13.2
+        t:
+            "4": 3.13.2
+            "5": 0.22.3
+            "8":
+                - 3
+            "12": 0.22.3
+            "13": windows-amd64
