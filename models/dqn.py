@@ -32,6 +32,8 @@ class DQNAgent:
 
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.model = DQN(state_dim, action_dim).to(self.device)
+        # print device info so user sees whether CUDA is used
+        print(f"DQNAgent using device: {self.device} (CUDA available: {torch.cuda.is_available()})")
         self.optimizer = optim.Adam(self.model.parameters(), lr=lr)
         self.loss_fn = nn.MSELoss()
         
