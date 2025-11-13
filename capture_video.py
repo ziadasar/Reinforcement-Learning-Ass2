@@ -33,13 +33,14 @@ ENV_CONFIGS = {
         "discrete": True
     },
     "pendulum": {
-        "env_name": "Pendulum-v1",
-        "model_path": "dqn_pendulum_model.pth",
-        "state_dim": 3,
-        "action_dim": 5,  # Discretized actions
-        "discrete": False,
-        "action_values": np.linspace(-2.0, 2.0, 5)
-    }
+    "env_name": "Pendulum-v1",
+    "model_path": "dqn_pendulum_model.pth",
+    "state_dim": 3,
+    "action_dim": 9,  # ✅ match training
+    "discrete": False,
+    "action_values": np.linspace(-2.0, 2.0, 9)  # ✅ match training
+}
+
 }
 
 def record_video(environment_name, num_episodes=3, max_steps=1000, agent_type="DQN"):
